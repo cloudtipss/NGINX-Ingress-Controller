@@ -30,7 +30,7 @@ In order to install selected chart run:
 ```js
 helm upgrade --install ingress-nginx ingress-nginx \
   --repo https://kubernetes.github.io/ingress-nginx \
-  --namespace ingress-nginx --create-namespace --version --version 4.8.1
+  --namespace ingress-nginx --create-namespace --version 4.8.1
 ```
 
 To check if it is installed and running you can run:
